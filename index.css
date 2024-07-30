@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#conwayCanvas {
+
+}
+#conwayContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#buttonsContainer{
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    position: absolute;
+    bottom: 60px;
+
+}
+.button{
+    background-color: burlywood;
+    border-width: 0px;
+    width: 80px;
+    height: 50px;
+    border-color: #5e81ac;
+    border-radius: 20px;
+    outline: 0;
+    color: black;
+}
