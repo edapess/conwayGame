@@ -15,8 +15,8 @@ const ctx = conwayArea?.getContext("2d");
 
 conwayArea.style.backgroundColor = "#2e3440";
 const cellSize = 15;
-const rows = conwayArea.height / cellSize;
-const cols = conwayArea.width / cellSize;
+const rows = Math.floor(conwayArea.height / cellSize);
+const cols = Math.floor(conwayArea.width / cellSize);
 const cellAlive = 1;
 const cellDead = 0;
 const gosperGliderGun = [
